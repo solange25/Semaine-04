@@ -1,0 +1,45 @@
+body {
+  background-color: blueviolet;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  animation-name: animation;
+  animation-duration: 5s;
+}
+
+@keyframes animation {
+  from {
+    background-color: whitesmoke;
+    left: 0px;
+    top: 0px;
+  }
+  30% {
+    background-color: bt;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: #ffff00;
+    left: 200px;
+    top: 200px;
+  }
+
+  65% {
+    background-color: #fffff2;
+    left: 200px;
+    top: 200px;
+  }
+
+  80% {
+    background-color: #ff0000;
+    left: 10px;
+    top: 200px;
+  }
+  100% {
+    background-color: #808000;
+    left: 10px;
+    top: 0px;
+  }
+}
