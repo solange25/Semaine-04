@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+div {
+  display: inline-block;
+}
+h1 {
+  color: lime;
+}
+
+a :link {
+  color: darkcyan;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  font-size: 30px;
+  background-color: sienna;
+  box-shadow: 5px 5px 10px black inset;
+}
+a:active {
+  background-color: blueviolet;
+  font-weight: 900px;
+  box-shadow: 5px 5px 10px black inset;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  width: 100%;
+}
+tr:nth-child(even) {
+  background-color: green;
+}
+
+tr:nth-child(odd) {
+  background-color: blue;
+}
+tr:hover {
+  background-color: olive;
+}
+th {
+  background-color: rebeccapurple;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
