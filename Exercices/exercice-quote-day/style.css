@@ -1,3 +1,25 @@
-body{
+body {
   width: auto;
+  background-color: cornflowerblue;
+}
+#container {
+  display: grid;
+  grid-template: 1fr;
+  background-color: blueviolet;
+  height: 300px;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+#btn {
+  margin: 5px auto;
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  background-color: lightslategrey;
+}
+#display {
+  margin: 25px auto;
+  font-size: 20px;
+  color: white;
 }
